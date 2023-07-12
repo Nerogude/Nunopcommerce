@@ -13,7 +13,12 @@ public class RegistrationValidationPage extends BasePage{
 	WebElement validationMessage;
 	
 	public String confirmMessage() {
-		return validationMessage.getText();
+		try {
+			return validationMessage.getText();
+		}catch(Exception e) {
+			return (e.getMessage());
+		}
+		
 	}
 
 }
