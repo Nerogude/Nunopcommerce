@@ -15,15 +15,25 @@ public class TC_001_Registration_Test extends BaseClass{
 	@Test
 	public void test_RegistrationTest() {
 		
+		try {
+			
+		log.info("***TC_001_Registration_Test Begins***");
+			
 		HomePage hp = new HomePage(driver);
+		log.info("***select prefered currency***");
 		hp.selectCurrency();
+		
+		
 		hp.clickRegisterLink();
+		log.info("***register link clicked***");
 		
 		RegistrationPage rp = new RegistrationPage(driver);
+		
+		log.info("***enter user details***");
 		rp.setFirstName("zeroc");
 		rp.setLastName("xerp");
 		rp.selectDayOfBirth();
-		rp.setEmail("qaws@mail.com");
+		rp.setEmail(generateRandomString()+"@mail.com");
 		rp.setPassword("qwerty");
 		rp.setConfirmPassword("qwerty");
 		rp.clickRegisterBtn();
@@ -31,6 +41,11 @@ public class TC_001_Registration_Test extends BaseClass{
 		RegistrationValidationPage reg = new RegistrationValidationPage(driver);
 		reg.confirmMessage();
 		Assert.assertEquals("Your registration completed", reg.confirmMessage());
+		}
+		catch(Exception e)
+		{
+			Assert.fail();
+		}
 	}
 	
 	

@@ -1,0 +1,36 @@
+20:44:36.494 [main] INFO  testBase.BaseClass - ***TC_001_Registration_Test Begins***
+20:44:36.505 [main] INFO  testBase.BaseClass - ***select prefered currency***
+20:44:37.870 [main] INFO  testBase.BaseClass - ***register link clicked***
+20:44:37.871 [main] INFO  testBase.BaseClass - ***enter user details***
+09:15:05.951 [main] INFO  testBase.BaseClass - ***TC_001_Registration_Test Begins***
+09:15:05.967 [main] INFO  testBase.BaseClass - ***select prefered currency***
+09:15:07.489 [main] INFO  testBase.BaseClass - ***register link clicked***
+09:15:07.491 [main] INFO  testBase.BaseClass - ***enter user details***
+11:28:55.551 [main] INFO  testBase.BaseClass - ***TC_001_Registration_Test Begins***
+11:28:55.566 [main] INFO  testBase.BaseClass - ***select prefered currency***
+11:28:57.133 [main] INFO  testBase.BaseClass - ***register link clicked***
+11:28:57.134 [main] INFO  testBase.BaseClass - ***enter user details***
+11:29:22.542 [main] INFO  testBase.BaseClass - ***TC_001_Registration_Test Begins***
+11:29:22.559 [main] INFO  testBase.BaseClass - ***select prefered currency***
+11:29:23.578 [main] INFO  testBase.BaseClass - ***register link clicked***
+11:29:23.581 [main] INFO  testBase.BaseClass - ***enter user details***
+11:34:35.293 [TestNG-tests-2] INFO  testBase.BaseClass - ***TC_001_Registration_Test Begins***
+11:34:35.312 [TestNG-tests-1] INFO  testBase.BaseClass - ***TC_001_Registration_Test Begins***
+11:34:35.321 [TestNG-tests-2] INFO  testBase.BaseClass - ***select prefered currency***
+11:34:35.321 [TestNG-tests-1] INFO  testBase.BaseClass - ***select prefered currency***
+11:34:36.841 [TestNG-tests-2] INFO  testBase.BaseClass - ***register link clicked***
+11:34:36.841 [TestNG-tests-1] INFO  testBase.BaseClass - ***register link clicked***
+11:34:36.845 [TestNG-tests-2] INFO  testBase.BaseClass - ***enter user details***
+11:34:36.845 [TestNG-tests-1] INFO  testBase.BaseClass - ***enter user details***
+11:43:12.208 [main] INFO  testcases.TC_001_Registration_Test - ***TC_001_Registration_Test Begins***
+11:43:12.228 [main] INFO  testcases.TC_001_Registration_Test - ***select prefered currency***
+11:43:13.722 [main] INFO  testcases.TC_001_Registration_Test - ***register link clicked***
+11:43:13.725 [main] INFO  testcases.TC_001_Registration_Test - ***enter user details***
+11:49:33.934 [main] INFO  testcases.TC_001_Registration_Test - ***TC_001_Registration_Test Begins***
+11:49:33.948 [main] INFO  testcases.TC_001_Registration_Test - ***select prefered currency***
+11:49:35.455 [main] INFO  testcases.TC_001_Registration_Test - ***register link clicked***
+11:49:35.457 [main] INFO  testcases.TC_001_Registration_Test - ***enter user details***
+12:05:54.854 [main] INFO  testcases.TC_001_Registration_Test - ***TC_001_Registration_Test Begins***
+12:05:54.875 [main] INFO  testcases.TC_001_Registration_Test - ***select prefered currency***
+12:05:56.388 [main] INFO  testcases.TC_001_Registration_Test - ***register link clicked***
+12:05:56.390 [main] INFO  testcases.TC_001_Registration_Test - ***enter user details***
